@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-black text-white">
+    <header class="bg-zinc-950 backdrop-blur-sm p-[20px]">
+      <nav>
+        <ul class="flex justify-evenly items-center">
+          <li>
+            <a href="#">
+              <span class="text-3xl font-semibold">GamesStream</span>
+            </a>
+          </li>
+          <div>
+            <div class="w-[400px] bg-zinc-900 flex rounded-lg items-center">
+              <input
+                type="text"
+                placeholder="Search.."
+                class="bg-transparent border-0 outline-none text-white p-[6px] w-[90%]"
+              />
+              <i class="bx bx-search-alt-2 text-3xl"></i>
+            </div>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <div
+                  href="#"
+                  class="w-[35px] h-[35px] p-[15px] flex items-center justify-center rounded-full bg-indigo-600 hover:bg-indigo-700 cursor-pointer text-2xl font-semibold"
+                >
+                  U
+                </div>
+              </li>
+            </ul>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <main class="p-[20px] flex justify-between">
+      <aside
+        class="bg-zinc-950 w-[400px] text-white h-[100vh] top-0 left-0 rounded-lg"
+      >
+        <nav>
+          <ul class="text-center mt-[20px]">
+            <li>
+              <span class="text-2xl opacity-32">For you.</span>
+            </li>
+            <div class="flex justify-center mt-[20px]">
+              <div
+                class="flex items-center justify-between w-[250px] p-[6px] hover:bg-black rounded-lg cursor-pointer hover:shadow-md"
+              >
+                <div>
+                  <img
+                    src="./profile.jpg"
+                    class="rounded-full w-[40px]"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <p>jonhdoe.</p>
+                </div>
+                <div class="bg-red-600 hover:bg-red-800 p-[6px] rounded-full">
+                  On Stream
+                </div>
+              </div>
+            </div>
+          </ul>
+        </nav>
+      </aside>
+      <section class="bg-zinc-950 w-[75%] flex justify-center text-center">
+        <article>
+          <div class="mt-[60px]">
+            <h1 class="text-3xl p-[6px] font-semibold">¡Hello!</h1>
+            <div>
+              <p class="opacity-50 font-thin">No stream found</p>
+              <h1 class="text-9xl font-semibold mt-[20px]">:(</h1>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
